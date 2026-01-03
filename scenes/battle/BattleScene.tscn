@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/battle/BattleManager.gd" id=1]
+
+[node name="BattleScene" type="Node"]
+
+[node name="BattleManager" type="Node" parent="."]
+script = ExtResource( 1 )
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="Panel" type="ColorRect" parent="UI"]
+color = Color(0, 0, 0, 0.55)
+size = Vector2(900, 180)
+position = Vector2(20, 20)
+
+[node name="BattleText" type="Label" parent="UI/Panel"]
+position = Vector2(16, 16)
+text = "Battle loading..."
+
+[node name="Hint" type="Label" parent="UI/Panel"]
+position = Vector2(16, 110)
+text = "Attack: A / Enter / E (Controller A) | Cancel: B / Esc"

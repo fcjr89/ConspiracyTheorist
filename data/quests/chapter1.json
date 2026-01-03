@@ -1,0 +1,54 @@
+{
+  "quests": [
+    {
+      "id": "defend_weak",
+      "title": "Defend the Weak",
+      "description": "Stand up to a bully harassing someone at school.",
+      "stage": 1,
+      "objectives": [
+        {
+          "id": "encounter_bully",
+          "text": "Encounter the bully at school",
+          "complete": false
+        },
+        {
+          "id": "defeat_bully",
+          "text": "Defeat the bully in combat",
+          "complete": false
+        },
+        {
+          "id": "talk_victim",
+          "text": "Talk to the person being bullied",
+          "complete": false
+        }
+      ],
+      "rewards": {
+        "exp": 250,
+        "cash": 50
+      },
+      "npc_trigger": "bully_encounter"
+    },
+    {
+      "id": "burger_joint",
+      "title": "The All-American",
+      "description": "Find a safe haven away from school.",
+      "stage": 1,
+      "objectives": [
+        {
+          "id": "find_burger_place",
+          "text": "Discover the burger joint",
+          "complete": false
+        },
+        {
+          "id": "talk_owner",
+          "text": "Meet the owner",
+          "complete": false
+        }
+      ],
+      "rewards": {
+        "exp": 100,
+        "cash": 0
+      }
+    }
+  ]
+}

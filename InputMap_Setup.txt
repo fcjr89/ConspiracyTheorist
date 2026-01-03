@@ -1,0 +1,56 @@
+# Godot Input Map Configuration
+# Add these to Project Settings > Input Map
+
+# MOVEMENT ACTIONS
+move_left:
+  - Keyboard: A
+  - Keyboard: Left Arrow
+  - Joy Axis: Left Stick Left (Joy Axis 0, Negative)
+
+move_right:
+  - Keyboard: D
+  - Keyboard: Right Arrow
+  - Joy Axis: Left Stick Right (Joy Axis 0, Positive)
+
+move_up:
+  - Keyboard: W
+  - Keyboard: Up Arrow
+  - Joy Axis: Left Stick Up (Joy Axis 1, Negative)
+
+move_down:
+  - Keyboard: S
+  - Keyboard: Down Arrow
+  - Joy Axis: Left Stick Down (Joy Axis 1, Positive)
+
+# INTERACTION ACTIONS
+interact:
+  - Keyboard: E
+  - Keyboard: Return/Enter
+  - Joy Button: 0 (A / Cross)
+
+menu_pause:
+  - Keyboard: Escape
+  - Joy Button: 7 (Start)
+
+# BATTLE ACTIONS
+battle_confirm:
+  - Keyboard: Return/Enter
+  - Keyboard: Space
+  - Joy Button: 0 (A / Cross)
+
+battle_cancel:
+  - Keyboard: Escape
+  - Joy Button: 1 (B / Circle)
+
+ui_accept:
+  - Keyboard: Return/Enter
+  - Joy Button: 0 (A / Cross)
+
+ui_cancel:
+  - Keyboard: Escape
+  - Joy Button: 1 (B / Circle)
+
+# AXIS MAPPINGS (for analog sticks)
+# Left Stick: Joy Axis 0 (horizontal), Joy Axis 1 (vertical)
+# Right Stick: Joy Axis 2 (horizontal), Joy Axis 3 (vertical)
+# Triggers: Joy Axis 4 (LT), Joy Axis 5 (RT)
